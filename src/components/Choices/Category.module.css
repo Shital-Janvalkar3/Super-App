@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Single+Day&display=swap');
+.main{
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    margin-top: 1rem;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+.section2{
+    width: 40vw;
+    max-height: 70vh;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 1rem;
+}
+/* .section2:hover{
+    cursor: pointer;
+} */
+
+.section1{
+    width: 50vw;
+    height: 80vh;
+    padding-top: 10vh;
+    text-align: center;
+    padding-left: 5vw;
+    box-sizing: border-box;
+}
+.section1:hover{
+    cursor: pointer;
+}
+
+.title{
+    font-size: 5rem;
+    color: #72db73;
+    font-family:'Single Day';
+}
+
+.subtitle{
+    font-size: 3rem;
+    font-family: 'Roboto';
+    line-height: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.Nextpage{
+    color:white;
+    background:green;
+    border-radius:12px;
+    position:absolute;
+    bottom:2%;
+    right:7vw;
+    border: none;
+    padding: 12px;
+}
+.Nextpage:hover{
+    cursor: pointer;
+}
+
+ .error{
+    color: red;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+    padding-right: 2rem;
+}

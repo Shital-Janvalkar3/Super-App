@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Roboto&family=Single+Day&display=swap');
+img{
+    width: 65vw;
+    height: 110vh;  
+}
+
+.discover {
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+    color: white;
+    font-family: 'Roboto';
+    font-size:35px;
+    line-height: 77.93px;
+    font-weight: 900;
+    max-width: 50vw;
+}
+/* 
+@media only screen and (min-width: 500px)  {
+    img{
+        width: 100vw;
+        height: 100vh;  
+    }
+
+} */
